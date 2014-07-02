@@ -16,5 +16,9 @@ namespace CodingChallenge2 {
         public char nextLetter() {
             return (char)aStreamReader.Read();
         }
+
+        public void closeStream() {
+            aStreamReader.Close();
+        }
     }
 }

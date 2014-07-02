@@ -13,10 +13,13 @@ namespace CodingChallenge2 {
         }
 
         public void TestAndAddToCounter(string threeCharSequence) {
-            if (AreAllLetters(threeCharSequence)) {
+            if (StringHelper.AreAllLetters(threeCharSequence)) {
+                threeCharSequence = StringHelper.SetAllToCaps(threeCharSequence);
                 AddToCount(threeCharSequence);
             }
         }
+
+
 
         private void AddToCount(string key) {
             if (dictionary.ContainsKey(key)) {
@@ -27,14 +30,6 @@ namespace CodingChallenge2 {
             }
         }
 
-        private bool AreAllLetters(string threeCharSequence) {
-            if (char.IsLetter(threeCharSequence[0])
-                && char.IsLetter(threeCharSequence[1])
-                && char.IsLetter(threeCharSequence[2])) {
-                return true;
-            }
-            else return false;
-        }
 
 
         public void ShowTlsWithFrequency(int desiredFrequency) {

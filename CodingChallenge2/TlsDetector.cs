@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CodingChallenge2 {
     class TlsDetector {
@@ -21,6 +22,7 @@ namespace CodingChallenge2 {
                 UpdateLetters();
                 counter.TestAndAddToCounter(threeCharSequence);
             }
+            documentScanner.closeStream();
         }
 
 
