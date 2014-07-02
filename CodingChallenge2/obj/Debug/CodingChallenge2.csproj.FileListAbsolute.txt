@@ -4,3 +4,9 @@ C:\Users\aer\Documents\Visual Studio 2013\Projects\CodingChallenge2\CodingChalle
 C:\Users\aer\Documents\Visual Studio 2013\Projects\CodingChallenge2\CodingChallenge2\bin\Debug\CodingChallenge2.pdb
 C:\Users\aer\Documents\Visual Studio 2013\Projects\CodingChallenge2\CodingChallenge2\obj\Debug\CodingChallenge2.exe
 C:\Users\aer\Documents\Visual Studio 2013\Projects\CodingChallenge2\CodingChallenge2\obj\Debug\CodingChallenge2.pdb
+C:\cygwin64\home\aer\CodingChallenge2\CodingChallenge2\bin\Debug\CodingChallenge2.exe.config
+C:\cygwin64\home\aer\CodingChallenge2\CodingChallenge2\obj\Debug\CodingChallenge2.exe
+C:\cygwin64\home\aer\CodingChallenge2\CodingChallenge2\obj\Debug\CodingChallenge2.pdb
+C:\cygwin64\home\aer\CodingChallenge2\CodingChallenge2\obj\Debug\CodingChallenge2.csprojResolveAssemblyReference.cache
+C:\cygwin64\home\aer\CodingChallenge2\CodingChallenge2\bin\Debug\CodingChallenge2.exe
+C:\cygwin64\home\aer\CodingChallenge2\CodingChallenge2\bin\Debug\CodingChallenge2.pdb

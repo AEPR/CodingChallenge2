@@ -46,7 +46,6 @@
     <Compile Include="Scanner.cs" />
     <Compile Include="TlsCounter.cs" />
     <Compile Include="TlsDetector.cs" />
-    <Compile Include="TlsDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
