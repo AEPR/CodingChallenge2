@@ -14,7 +14,7 @@ namespace CodingChallenge2 {
 
         public void TestAndAddToCounter(string threeCharSequence) {
             if (StringHelper.AreAllLetters(threeCharSequence)) {
-                threeCharSequence = StringHelper.SetAllToCaps(threeCharSequence);
+                threeCharSequence = threeCharSequence.ToUpper();
                 AddToCount(threeCharSequence);
             }
         }
