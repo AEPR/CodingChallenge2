@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Cryptography;
 
 namespace CodingChallenge2 {
@@ -37,6 +38,13 @@ namespace CodingChallenge2 {
                 if (tls.Value == desiredFrequency) {
                     Console.WriteLine(tls);
                 }
+            }
+        }
+
+        public void ShowTlsInAscendingFrequency() {
+            var maxFrequency = dictionary.Values.Max();
+            for (int i = 1; i < maxFrequency; ++i) {
+                ShowTlsWithFrequency(i);
             }
         }
     }

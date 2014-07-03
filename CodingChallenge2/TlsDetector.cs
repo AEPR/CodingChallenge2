@@ -35,5 +35,9 @@ namespace CodingChallenge2 {
         public void DisplayTlsWithFrequency(int desiredFrequency) {
             counter.ShowTlsWithFrequency(desiredFrequency);
         }
+
+        public void DisplayAllTlsByFrequency() {
+            counter.ShowTlsInAscendingFrequency();
+        }
     }
 }
