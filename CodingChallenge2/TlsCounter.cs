@@ -33,12 +33,15 @@ namespace CodingChallenge2 {
 
 
 
-        public void ShowTlsWithFrequency(int desiredFrequency) {
+        public bool ShowTlsWithFrequency(int desiredFrequency) {
+            bool noMatches = true;
             foreach (var tls in dictionary) {
                 if (tls.Value == desiredFrequency) {
                     Console.WriteLine(tls);
+                    noMatches = false;
                 }
             }
+            return !noMatches;
         }
 
         public void ShowTlsInAscendingFrequency() {

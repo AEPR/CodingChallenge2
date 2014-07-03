@@ -33,7 +33,9 @@ namespace CodingChallenge2 {
         }
 
         public void DisplayTlsWithFrequency(int desiredFrequency) {
-            counter.ShowTlsWithFrequency(desiredFrequency);
+            if (!counter.ShowTlsWithFrequency(desiredFrequency)) {
+                Console.WriteLine("No matches were found for frequency {0}", desiredFrequency);
+            }
         }
 
         public void DisplayAllTlsByFrequency() {
