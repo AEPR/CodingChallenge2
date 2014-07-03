@@ -47,6 +47,7 @@
     <Compile Include="StringHelper.cs" />
     <Compile Include="TlsCounter.cs" />
     <Compile Include="TlsDetector.cs" />
+    <Compile Include="UserInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
