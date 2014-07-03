@@ -9,11 +9,11 @@ namespace CodingChallenge2 {
         public static void Main() {
 
             Console.Write("Enter name of document to be read: ");
-            string chosenDocument = Console.ReadLine();
+            string chosenDocumentName = Console.ReadLine();
             Console.Write("Enter desired frequency to be matched: ");
             int desiredFrequency = Convert.ToInt32(Console.ReadLine());
             TlsDetector detector = new TlsDetector();
-            detector.ReadDocument(chosenDocument);
+            detector.ReadDocument(chosenDocumentName);
             detector.DisplayTlsWithFrequency(desiredFrequency);
 
         }

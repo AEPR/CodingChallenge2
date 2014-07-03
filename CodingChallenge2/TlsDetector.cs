@@ -13,20 +13,20 @@ namespace CodingChallenge2 {
             get { return threeAgoLetter.ToString() + twoAgoLetter.ToString() + oneAgoLetter.ToString(); }
         }
 
-        public void ReadDocument(string chosenDocument) {
+        public void ReadDocument(string documentName) {
             
             counter = new TlsCounter();
-            documentScanner = new Scanner(chosenDocument);
+            documentScanner = new Scanner(documentName);
 
             while (documentScanner.StillReading) {
-                UpdateLetters();
+                UpdateTlsChars();
                 counter.TestAndAddToCounter(threeCharSequence);
             }
             documentScanner.closeStream();
         }
 
 
-        private void UpdateLetters() {
+        private void UpdateTlsChars() {
             threeAgoLetter = twoAgoLetter;
             twoAgoLetter = oneAgoLetter;
             oneAgoLetter = documentScanner.nextLetter();
